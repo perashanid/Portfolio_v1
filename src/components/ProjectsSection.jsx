@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, GitHub } from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
@@ -62,8 +62,8 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  {project.tags.map((tag, index) => (
+                    <span key={index} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
                   ))}
