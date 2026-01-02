@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, GitHub } from "lucide-react";
 
 const projects = [
   {
@@ -7,8 +7,8 @@ const projects = [
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://yggdrasoftlabs.shanidsajjatuz.xyz",
+    githubUrl: "https://github.com/perashanid/Yggdrasoft-Labs",
   },
   {
     id: 2,
